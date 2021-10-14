@@ -116,3 +116,8 @@ spec:
 Store the contents in microservice.yaml and deploy it with `kubectl apply -f microservice.yaml`.
 
 Check the pods created by the microservice operator using `kubectl get po` and the service with `kubectl get svc`.
+
+## Resources
+- [Operator SDK In-depth tutorial](https://sdk.operatorframework.io/docs/building-operators/golang/tutorial/)
+- [Operator SDK Reference](https://sdk.operatorframework.io/docs/building-operators/golang/references/)
+- [Kubernetes client-go kubernetes client](https://pkg.go.dev/k8s.io/client-go/kubernetes)
